@@ -9,8 +9,8 @@ def payout():
     # 5 Если статус заказа False, то пишем что платеж не пришел и не активируем подписку
 
     # Получаем Данные от банка
-    TEST_TERMINAL_KEY = '1654965557897DEMO'
-    TEST_SECRET_KEY = 'u319tvpejjiz3udc'
+    TEST_TERMINAL_KEY = ''
+    TEST_SECRET_KEY = ''
     orderid = str(uuid4())
     init_post_data = {'TerminalKey': TEST_TERMINAL_KEY,
                       'Amount': 1000,
